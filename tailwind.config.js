@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
@@ -29,7 +29,7 @@ module.exports = {
       keyframes: {
         beep: {
           "0%, 100%": { transform: "scale(1)" },
-          "50%": { transform: "scale(1.04)" },
+          "50%": { transform: "scale(1.06)" },
         },
       },
       animation: {
