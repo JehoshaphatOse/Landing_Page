@@ -2917,6 +2917,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 184 76 / var(--tw-text-opacity));
+}
+
 .before\:hover\:text-center:hover::before {
   content: var(--tw-content);
   text-align: center;
@@ -2990,6 +2995,10 @@ video {
     height: 550px;
   }
 
+  .md\:h-\[600px\] {
+    height: 600px;
+  }
+
   .md\:w-24 {
     width: 6rem;
   }
@@ -3016,6 +3025,10 @@ video {
 
   .md\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:bg-gray-100 {
